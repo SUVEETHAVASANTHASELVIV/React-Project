@@ -1,0 +1,38 @@
+.background{
+        background-image:url('https://www.pymnts.com/wp-content/uploads/2016/07/iyap_digitalpayments.jpg') ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center; 
+        padding-bottom: 50px;
+        height: 350px;
+        font-family:'Times New Roman', Times, serif;
+        color: whitesmoke;
+        text-align: center;
+        font-size: larger;
+}
+.tools{
+        background-color:azure;
+        height: 100px;  
+}
+.cards1{
+        margin-top: 50px; 
+        justify-content: space-around;
+        display: flex;
+       
+}
+.cards2{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+}
+.footer{
+        margin-top: 30px;
+}
+.sticky-nav {
+        position: fixed;
+        /*position: sticky;*/
+        top: 0;
+      }
+.body{
+        background-color:azure;
+}

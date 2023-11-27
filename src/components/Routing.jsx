@@ -65,6 +65,7 @@ const Routing = () => {
       </AppBar>
     <Routes>
      <Route exact path='/' element={<Front/>}/>
+        <Route path='/Signup' element={<SignUp/>}/>
      {auth.user && (
       <>
         <Route path='/home' element={<Home/>}/>
@@ -75,7 +76,6 @@ const Routing = () => {
         <Route path='/TransportBill' element={<TransportBill/>}/>
         <Route path='/Education' element={<Education/>}/>
         <Route path='/Moreoption' element={<Moreoption/>}/>
-        <Route path='/Signup' element={<SignUp/>}/>
         <Route path='/About' element={<About/>}/>
       </>
       )}
